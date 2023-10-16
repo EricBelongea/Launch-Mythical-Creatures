@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mythical_Creatures
+namespace MythicalCreatures.Creatures
 {
-    public class Unicorn
+    internal class Unicorn
     {
 
     }
