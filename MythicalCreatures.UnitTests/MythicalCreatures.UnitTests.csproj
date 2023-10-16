@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MythicalCreatures.csproj" />
+    <ProjectReference Include="..\Creatures\MythicalCreatures.csproj" />
   </ItemGroup>
 
 </Project>

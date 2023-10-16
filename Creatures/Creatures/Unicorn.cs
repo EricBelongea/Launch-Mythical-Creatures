@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MythicalCreatures.Creatures
+﻿namespace MythicalCreatures.Creatures
 {
-    internal class Unicorn
+    public class Unicorn
     {
 
     }
