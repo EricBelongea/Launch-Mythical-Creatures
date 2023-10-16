@@ -1,4 +1,4 @@
-using Mythical_Creatures;
+using MythicalCreatures;
 
 namespace MythicalCreatures.UnitTests
 {
