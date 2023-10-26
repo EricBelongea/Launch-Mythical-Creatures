@@ -32,6 +32,7 @@ Continue for each test for the current creature. Repeat this process until all t
 * `VampireTests.cs`
 * `DragonTests.cs`
 * `HobbitTests.cs`
+<!--
 * `PirateTests.cs`
 * `WizardTests.cs`
 * `MedusaTests.cs`
@@ -39,8 +40,6 @@ Continue for each test for the current creature. Repeat this process until all t
 * `CentaurTests.cs`
 * `OgreTests.cs`
 * `DirewolfTests.cs`
-
-<!--
 * `TheJourneyTests.cs` (see below)
 
 ## Extra Challenges
