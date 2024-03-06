@@ -70,33 +70,33 @@
 //            Assert.True(hobbit.ReachedAdulthood()); // still an adult
 //        }
 
-        /* Want more tests to write?
-         * - Name each test using the convention Class_Method_Result
-         * - Create object(s) and run method(s)
-         * - Assert equality or truth as needed
-         * - Make sure to add [Fact] attribute before each test
-         */
+/* Want more tests to write?
+ * - Name each test using the convention Class_Method_Result
+ * - Create object(s) and run method(s)
+ * - Assert equality or truth as needed
+ * - Make sure to add [Fact] attribute before each test
+ */
 
-        /* A hobbit is considered old at age 101
-         * - Create a hobbit
-         * - Age the hobbit 101 years
-         * - Check method returns `true`
-         */
-
-
-
-        /* A hobbit named Frodo has the ring
-         * - Create two hobbits named Frodo and Sam
-         * - Check method returns `true` for Frodo
-         * - Check method returns `false` for Sam
-         */
+/* A hobbit is considered old at age 101
+ * - Create a hobbit
+ * - Age the hobbit 101 years
+ * - Check method returns `true`
+ */
 
 
 
-        /* A hobbit is short
-         * - Create a hobbit
-         * - Check method returns `true`
-         */
+/* A hobbit named Frodo has the ring
+ * - Create two hobbits named Frodo and Sam
+ * - Check method returns `true` for Frodo
+ * - Check method returns `false` for Sam
+ */
+
+
+
+/* A hobbit is short
+ * - Create a hobbit
+ * - Check method returns `true`
+ */
 
 
 
