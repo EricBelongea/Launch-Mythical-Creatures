@@ -23,6 +23,21 @@ namespace MythicalCreatures.Creatures
 		{
 			return Age > 32;
 		}
+
+		public bool IsOld()
+		{
+			return Age > 100;
+		}
+
+		public bool HasRing()
+		{
+			return Name.ToLower() == "frodo";
+		}
+
+		public bool IsShort()
+		{
+			return true;
+		}
 	}
 }
 

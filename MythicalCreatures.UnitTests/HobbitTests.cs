@@ -77,13 +77,24 @@ namespace MythicalCreatures.UnitTests
          * - Make sure to add [Fact] attribute before each test
          */
 
+
         /* A hobbit is considered old at age 101
          * - Create a hobbit
          * - Age the hobbit 101 years
          * - Check method returns `true`
          */
-
-
+        [Fact]
+        public void Hobbit_IsOld_OldWhen101()
+        {
+            var hobbit = new Hobbit("Kat");
+            for (int i = 0; i < 100; i++) // 100 birthdays
+                hobbit.CelebrateBirthday();
+            Assert.False(hobbit.IsOld()); // Not old until 101
+            hobbit.CelebrateBirthday(); // another birthday == 101
+            Assert.True(hobbit.IsOld()); // is old now
+            hobbit.CelebrateBirthday(); // 102
+            Assert.True(hobbit.IsOld()); // Still true, still old.
+        }
 
         /* A hobbit named Frodo has the ring
          * - Create two hobbits named Frodo and Sam
@@ -91,14 +102,30 @@ namespace MythicalCreatures.UnitTests
          * - Check method returns `false` for Sam
          */
 
+        [Fact]
+        public void Hobbit_HasRing_FrodoHasRing()
+        {
+            var frodo = new Hobbit("Frodo");
+            var sam = new Hobbit("Sam");
 
+            Assert.True(frodo.HasRing());
+            Assert.False(sam.HasRing());
+
+            var frodo2 = new Hobbit("fRoDo"); // Test checking case insensitivity
+            Assert.True(frodo2.HasRing());
+        }
 
         /* A hobbit is short
          * - Create a hobbit
          * - Check method returns `true`
          */
 
+        [Fact]
+        public void Hobbit_IsShort_HobbitsAreAllShort()
+        {
+            var hobbit = new Hobbit("yolo");
 
-
+            Assert.True(hobbit.IsShort());
+        }
     }
 }
